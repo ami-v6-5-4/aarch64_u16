@@ -17,3 +17,12 @@ build:
     - python -V
     - docker ps
     - docker images
+    - pip --version
+    - aws --version #1.15.14
+    - eb --version #3.12.4
+    - gcloud version #200.0.0
+    - kubectl version --client #1.10.0
+    - packer version #1.2.3
+    - apt search azure-cli
+    - az --version #2.0.32
+    - docker pull shippabledocker/sample_node_pvt:ecr
